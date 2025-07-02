@@ -24,7 +24,7 @@ public class BookingServiceImpl implements BookingService {
         BeanUtils.copyProperties(passenger, ticket);
         ticket.setTicketCost(550.00);
         ticket.setStatus("CONFIRMED");
-        ticket.setTicketNumber(ticketNumber);
+        ticket.setTicketNum(ticketNumber);
 
         ticketsMap.put(ticketNumber, ticket);
         ticketNumber++;

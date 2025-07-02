@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class Ticket {
 
-    private Integer ticketNumber;
+    private Integer ticketNum;
     private String status;
     private Double ticketCost;
     private String name;
