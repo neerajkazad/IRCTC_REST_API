@@ -1,5 +1,7 @@
 SMNK29 - 27_IRCTC_REST_API
 
+Provider Application and we are going to use this with 28_Make_My_Trip_App this is going to act as consumer applicaiton.
+
 Developer REST API without using the swagger.
 
 What we have to do to add the swagger in our Spring Boot Application?
@@ -32,4 +34,6 @@ public class OpenAPIConfig {
                         .description("This is the Product API documentation using OpenAPI and Swagger UI."));
     }
 }
+
+
 
