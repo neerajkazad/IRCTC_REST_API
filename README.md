@@ -7,12 +7,13 @@ Developer REST API without using the swagger.
 What we have to do to add the swagger in our Spring Boot Application?
 
 Step 1: Add the SpringDoc OpenAPI dependency to your pom.xml file:
-
+```xml
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     <version>2.4.0</version>
 </dependency>
+```
 
 Step 2: (Optional) Customize OpenAPI Info
 You can add an OpenAPI bean to customize title, version, description:
