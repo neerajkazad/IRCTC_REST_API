@@ -14,6 +14,7 @@ Step 1: Add the SpringDoc OpenAPI dependency to your pom.xml file:
     <version>2.4.0</version>
 </dependency>
 ```
+---
 
 Step 2: (Optional) Customize OpenAPI Info
 You can add an OpenAPI bean to customize title, version, description:
